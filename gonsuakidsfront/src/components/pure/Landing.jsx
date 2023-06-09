@@ -10,14 +10,14 @@ export default function Landing(){
             <Nav />
             <section className='landing--initial'>
                 <div className='landing--upperInfo'>
+                    <h1 className='landing--title'>GonsuaKids</h1>
                     <div className='landing--fColumn'>
-                        <h1 className='landing--title'>GonsuaKids</h1>
                         <div className="landing--info">
                             <p>GonsuaKids es una fundación enfocada en ayudar y apoyar a través de la colabaración con espcialistas, a niños con discapacidad para adquirir y desarrollar habilidades para la vida, con la finalidad de que así, con nuestra ayuda y apoyo, puedan mejorar su salud</p>
                             <p className='bold contactanos'>¡Ponte en contacto con nosotros y únetenos en esta causa!</p>
                         </div>
+                        <img src={require('../../assets/GonsuaKids.png')} alt="Imagen insignia de GonsuaKids" className='landing--img'/>
                     </div>
-                    <img src={require('../../assets/GonsuaKids.png')} alt="Imagen insignia de GonsuaKids" className='landing--img'/>
                 </div>
             </section>
             <section className='landing--recomended'>

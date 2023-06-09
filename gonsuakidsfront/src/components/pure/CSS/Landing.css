@@ -2,7 +2,6 @@ body {
     font-family: Poppins, sans-serif;
     color: var(--black);
     margin: 0;
-    background-color: white;
 }
 
 section {
@@ -33,7 +32,7 @@ section {
     max-width: 100%;
 }
 
-.landing--upperInfo {
+.landing--fColumn {
     display: grid;
     grid-template-columns: 4fr 2fr;
     align-items: center;

@@ -1,14 +1,27 @@
 ol li {
     counter-increment: muffins;
+    font-family: cursive;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: justify;
 }
 
-ol li:before {
+ol li:before{
     content: counter(muffins) ". ";
     /* Whatever custom styles you want here */
-    color: var(--verdeClaro);
-    color: var(--rosa2);
+    font-size: 30px;
     font-weight: bold;
     font-family: cursive;
+}
+
+li:nth-child(1):before{
+    color: var(--azul);
+}
+li:nth-child(2):before{
+    color: var(--vino);
+}
+li:nth-child(3):before{
+    color: var(--verdeOscuro);
 }
 
 ol {

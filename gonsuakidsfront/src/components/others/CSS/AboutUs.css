@@ -1,0 +1,18 @@
+ol li {
+    counter-increment: muffins;
+}
+
+ol li:before {
+    content: counter(muffins) ". ";
+    /* Whatever custom styles you want here */
+    color: var(--verdeClaro);
+    color: var(--rosa2);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+ol {
+    list-style: none;
+    counter-reset: muffins;
+}
+

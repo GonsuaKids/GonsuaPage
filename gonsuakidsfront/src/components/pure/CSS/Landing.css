@@ -1,0 +1,84 @@
+body {
+    font-family: Poppins, sans-serif;
+    color: var(--black);
+    margin: 0;
+    background-color: white;
+}
+
+section {
+    padding: 25px;
+}
+
+.bold {
+    font-weight: bold;
+    color: var(--verdeClaro);
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing--title {
+    font-size: 5em;
+    margin: 35px 0;
+    max-width: 100%;
+    text-align: center;
+    color: var(--orange);
+}
+
+.landing--fColumn {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.landing--upperInfo {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    align-items: center;
+    max-width: 100%;
+}
+
+.landing--info {
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 100%;
+    min-height: fit-content;
+    text-align: justify;
+}
+
+.landing--info>p {
+    margin: 30px 35px;
+}
+
+.landing--img {
+    padding: 0px 10px;
+    border-radius: 30px;
+    min-width: 70%;
+    max-width: 100%;
+    max-height: fit-content;
+
+}
+
+.landing--recomended {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing--recomended-title {
+    font-size: 3em;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 0px;
+}
+
+.cards {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}

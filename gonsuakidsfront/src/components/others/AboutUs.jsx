@@ -22,16 +22,46 @@ export default function AboutUs(){
                     Solicitaremos a las autoridades correspondientes nos brinden todo el apoyo para tener acceso a los distintos programas sociales, así como la apertura para ocupar los espacios recreativos y culturales para complementar las actividades y poder lograr un mayor éxito.
                     </li>
                 </ol>
-                
+                <hr/>
                 <h2>
                     Misión
                 </h2>
+                <p className="AU-text">Integrar una comunidad empática y unificada, en la cual podamos apoyar a este
+                    sector de nuestra población, el cual cuenta áreas de oportunidad limitadas,
+                    queremos brindarles una opción especializada que les permita afrontar su día a día 
+                    de una mejor manera y con la mayor calidad de vida posible.
+                </p>
+                <hr/>
                 <h2>
                     Visión
                 </h2>
+                <p className="AU-text">
+                    Somos una institución que pretendemos ayudar y brindar una alternativa a niños y
+                    niñas que presentan el ESPECTRO AUTISTA, ASPERGER Y SÍNDROME DE
+                    DOWN, para que en un ambiente de corresponsabilidad y compromiso nos
+                    dediquemos a la formación integral de niños y niñas, siendo nuestra principal labor
+                    “LA INCLUSION A LA VIDA COTIDIANA Y FAMILIAR”.
+                </p>
+                <hr/>
                 <h2>
                     Valores
                 </h2>
+                <div className="List--valores">
+                    <ul>
+                        <li>Amor</li>
+                        <li>Respeto</li> 
+                        <li>Inclusión</li> 
+                        <li>Comprensión</li> 
+                        <li>Empatía</li> 
+                    </ul>
+                    <ul>
+                        <li>Tolerancia</li> 
+                        <li>Aceptación</li> 
+                        <li>Integración</li> 
+                        <li>Seguridad</li> 
+                        <li>Diversidad</li>
+                    </ul>
+                </div>
             </div>
             <Footer />
         </>

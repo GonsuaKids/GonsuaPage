@@ -12,7 +12,7 @@ export default function App() {
         <Route path = "/" element = {<Landing />} />
         <Route path = "/Contacto" element = {<Contacto />} />
         <Route path = "/GonsuaKids" element = {<AboutUs />} />
-        <Route path = "/GonsuaTeam" element = {<Team />} />
+        <Route path = "/Team" element = {<Team />} />
       </Routes>
   );
 }

@@ -19,14 +19,15 @@ code {
   --azul: #08277c;
   --negro: #040f16;
   /* --blancoGon: #f2eaea; */
-  /* --blancoGon: #f0f7f4; */
+  --blancoGon: #f0f7f4;
   --verdeGon: #24c781;
   /* --blancoGon: #79cda8; */
   --verdeChillon: #5AFF15;
   --rosa: #F39A9D;
   --rosa2: #ff19d5;
   --azulClaro: #C4D7F2;
-  --azulMar: #119DA4; 
+  /* --azulMar: #119DA4;  */
+  --azulMar: #13B5BD; 
   --azulMarAlt: #16C6D0; 
   --verdeClaro: #00CC66;
   --vino: #a2373d;

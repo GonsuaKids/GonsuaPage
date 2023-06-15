@@ -7,7 +7,7 @@ export default function AboutUs(){
     return(
         <>
             <Navbar />
-            <div>
+            <div className="Container">
                 <h2>
                     Objetivos
                 </h2>

@@ -8,8 +8,8 @@ export default function Navbar(){
     <nav className="nav">
         <Link className='nav--title' to="/">GonsuaKids</Link>
         <h2 className='nav--info'><Link to="/GonsuaKids" className="AU">¿Quiénes somos?</Link></h2>
-        <h2 className='nav--login' onClick={() => {navigate('/Team')}}>Nuestra forma de ayudar</h2>
-        <h2 className='nav--register' onClick={() => {navigate('/Contacto')}}>Contáctanos</h2>
+        <h2 className='nav--login'><Link to="/Team" className="Met">Nuestra forma de ayudar</Link></h2>
+        <h2 className='nav--register'> <Link to="/Contacto" className="Cont">Contáctanos</Link></h2>
     </nav>
     )
 }

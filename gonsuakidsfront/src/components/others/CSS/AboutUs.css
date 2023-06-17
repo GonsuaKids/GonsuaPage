@@ -3,6 +3,16 @@
     margin-bottom: 2.5rem;
 }
 
+.secc{
+    background: white;
+    border-radius: 40px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    min-height: max-content ;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
 h2{
     text-align: center;
 }

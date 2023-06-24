@@ -1,0 +1,67 @@
+nav {
+    /* background-color: var(--white); */
+    background-color: var(--azulMar);
+    color: var(--negro);
+    padding: 30px 35px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    height: 20px;
+}
+
+nav>h2 {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.nav--title {
+    margin-right: auto;
+    color: var(--negro);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav--register {
+    background-color: var(--naranja);
+    color: var(--negro);
+    padding: 10px;
+    border-radius: 15px;
+    transition: .5s;
+    height: 20px;
+}
+
+.nav--register:hover {
+    transform: translateY(-15%);
+    cursor: pointer;
+}
+
+.nav--info,
+.nav--login,
+.nav--title {
+    transition: 0.5s;
+}
+
+.nav--info:hover,
+.nav--login:hover,
+.nav--title:hover {
+    transform: translateY(-15%);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.AU{
+    color: var(--azul);
+    /* color: var(--verdePastel); */
+}
+
+.Met{
+    color: var(--vino);
+    
+}
+
+.Cont{
+    color: var(--negro);
+    
+}

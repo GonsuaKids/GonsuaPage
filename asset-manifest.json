@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GonsuaPage/static/css/main.2685ae46.css",
+    "main.js": "/GonsuaPage/static/js/main.6808025d.js",
+    "static/js/787.cb3bc1a2.chunk.js": "/GonsuaPage/static/js/787.cb3bc1a2.chunk.js",
+    "static/media/GonsuaKids.png": "/GonsuaPage/static/media/GonsuaKids.204bb9af2e6426dd7256.png",
+    "index.html": "/GonsuaPage/index.html",
+    "main.2685ae46.css.map": "/GonsuaPage/static/css/main.2685ae46.css.map",
+    "main.6808025d.js.map": "/GonsuaPage/static/js/main.6808025d.js.map",
+    "787.cb3bc1a2.chunk.js.map": "/GonsuaPage/static/js/787.cb3bc1a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2685ae46.css",
+    "static/js/main.6808025d.js"
+  ]
+}

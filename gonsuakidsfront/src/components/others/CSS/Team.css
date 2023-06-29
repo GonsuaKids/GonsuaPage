@@ -1,7 +1,5 @@
 p{
     text-align: justify;
-    margin-left: 3rem;
-    margin-right: 3rem;
     font-family: cursive;
     font-size: 20px;
 }
@@ -9,4 +7,28 @@ p{
 .container{
     margin-bottom: 3rem;
     margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event--img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    
+}
+
+.text-team{
+    max-width: 60%;
+    background: var(--blancoGon);
+    padding: 20px;
+    border-radius: 10px;
 }

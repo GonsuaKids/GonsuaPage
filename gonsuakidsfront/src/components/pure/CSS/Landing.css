@@ -1,11 +1,11 @@
 body {
     font-family: Poppins, sans-serif;
     color: var(--black);
-    margin: 0;
+    margin: 0px;
 }
 
 section {
-    padding: 25px;
+    padding: 15px;
 }
 
 .bold {
@@ -18,12 +18,12 @@ section {
     flex-direction: column;
 }
 
+/* En el media query hacer que para dispositivos pequeños sea el font de 3 rem en vez de 8 */
 .landing--title {
-    font-size: 5em;
+    font-size: 6rem ;
     margin: 35px 0;
-    max-width: 100%;
     text-align: center;
-    color: var(--orange);
+    color: var(--negro);
 }
 
 .landing--fColumn {
@@ -32,11 +32,18 @@ section {
     max-width: 100%;
 }
 
+.landing--upperInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .landing--fColumn {
     display: grid;
     grid-template-columns: 4fr 2fr;
     align-items: center;
-    max-width: 100%;
+    width: 90%;
 }
 
 .landing--info {
@@ -80,4 +87,46 @@ section {
     max-width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .landing--title {
+        font-size: 3rem;
+        margin: 10px 0;
+        text-align: center;
+        color: var(--negro);
+    }
+
+    .landing--info {
+        font-size: 2em;
+        padding: 5px;
+        border-radius: 15px;
+        background-color: white;
+        max-width: 100%;
+        min-height: fit-content;
+        text-align: justify;
+    }
+    
+    .landing--info>p {
+        margin: 10px 15px;
+        font-size: 13px;
+    }
+
+    .landing--info {
+        padding: 5px;
+        border-radius: 15px;
+        background-color: white;
+        max-width: 100%;
+        min-height: fit-content;
+        text-align: justify;
+    }
+
+    .landing--fColumn {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .landing--recomended-title{
+        font-size: 1rem;
+        max-width: 90%;
+    }
 }

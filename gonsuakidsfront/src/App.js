@@ -9,6 +9,7 @@ export default function App() {
 
   return (
     <Routes>
+        <Route path = "/GonsuaPage/" element = {<Landing />} />
         <Route path = "/" element = {<Landing />} />
         <Route path = "/Contacto" element = {<Contacto />} />
         <Route path = "/GonsuaKids" element = {<AboutUs />} />

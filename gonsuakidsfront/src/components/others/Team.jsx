@@ -9,13 +9,16 @@ export default function Team(){
             <Navbar/>
             
             <div className="container">
-                <p>
-                    Empleamos una metodología abierta y se da seguimiento semi-escolarizado, las
-                    actividades serán diseñadas y dirigidas por especialistas de la educación y con el
-                    apoyo de una sombra se podrán en práctica con los niños. El trabajo se realizará
-                    diariamente con una gradualidad, esto con la finalidad de obtener un avance en los
-                    niños, por ende, integrarlos a la vida cotidiana.
-                </p>
+                <div className="img-container">
+                    <p className="text-team">
+                        Empleamos una metodología abierta que nos permite dar seguimiento semi-escolarizado, las
+                        actividades son diseñadas y dirigidas por especialistas de la educación y con el
+                        apoyo de una sombra se ponen en práctica con los niños. El trabajo se realiza
+                        diariamente con una gradualidad, esto con la finalidad de obtener un avance en los
+                        niños y por ende, integrarlos a la vida cotidiana.
+                    </p>
+                    <img src={require('../../assets/EventoGon.jpeg')} alt="Imagen de un evento de nuestra fundación" className='event--img'/>
+                </div>
                 <p>
                     Los especialistas se dirigirán a las sombras para explicarles la forma, técnicas,
                     materiales a utilizar y en que se deberá apoyar a los menores para estimularlos en

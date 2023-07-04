@@ -23,7 +23,7 @@ export default function Navbar(){
         </div>
         <div className="other">
             <h4 className='nav--info'><Link to="/GonsuaKids" className="AU">¿Quiénes somos?</Link></h4>
-            <h4 className='nav--login'><Link to="/Team" className="Met">Nuestra forma de ayudar</Link></h4>
+            <h4 className='nav--login'><Link to="/Team" className="Met">Cambiando vidas</Link></h4>
             <h4 className='nav--register'> <Link to="/Contacto" className="Cont">Contáctanos</Link></h4>
         </div>
     </div>

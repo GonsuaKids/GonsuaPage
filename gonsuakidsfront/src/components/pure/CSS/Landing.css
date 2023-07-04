@@ -1,5 +1,4 @@
 body {
-    font-family: Poppins, sans-serif;
     color: var(--black);
     margin: 0px;
 }
@@ -58,6 +57,8 @@ section {
 
 .landing--info>p {
     margin: 30px 35px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
 }
 
 .landing--img {
@@ -89,6 +90,14 @@ section {
     justify-content: center;
 }
 
+.react-player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
 @media (max-width: 600px) {
     .landing--title {
         font-size: 3rem;
@@ -107,9 +116,10 @@ section {
         text-align: justify;
     }
     
-    .landing--info>p {
+    .landing--info > p {
         margin: 10px 15px;
-        font-size: 13px;
+        font-size: 10px;
+
     }
 
     .landing--info {

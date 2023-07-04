@@ -2,6 +2,8 @@ import Nav from './Navbar';
 import Footer from './Footer';
 // import { Card } from 'react'
 import './CSS/Landing.css'
+import React, { Component } from 'react'
+import ReactPlayer from 'react-player'
 
 export default function Landing(){
 
@@ -30,14 +32,17 @@ export default function Landing(){
             </section>
             <section className='landing--recomended'>
                 <h3 className='landing--recomended-title'>
-                    Conoce los lugares que apoyarías haciendo una donación en esta fundación:
+                    Nuestra fundadora explica de primera mano el objetivo de la fundación:
                 </h3>
             </section>
-            <section className='cards'>
-                {/* <Card />
-                <Card />
-                <Card /> */}
-            </section>
+            <div className='react-player'>
+                <ReactPlayer
+                    url='https://youtu.be/cjxaxsISb1Q'                    
+                    // playing: false
+                    width='70%'
+                    height='100%'
+                />
+            </div>
             <Footer/>
         </>
     )

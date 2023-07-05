@@ -1,35 +1,56 @@
 .Container{
     margin-top: 3rem;
     margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .secc{
     background: white;
     border-radius: 40px;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    width: 90%;
     min-height: max-content ;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    margin-bottom: 30px;
+}
+.secc--val{
+    background: white;
+    border-radius: 40px;
+    width: 85%;
+    min-height: max-content ;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 30px;
 }
 
 h2{
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .AU-text{
-    margin-left: 35px;
-    margin-right: 3rem;
+    margin: 10px 35px;
     font-family: cursive;
     font-size: 20px;
+    text-align: justify;
 
+}
+
+.List--valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 ol li {
     counter-increment: muffins;
     font-family: cursive;
     font-size: 20px;
-    margin-right: 20px;
+    margin: 10px 30px;
     text-align: justify;
 }
 
@@ -54,14 +75,9 @@ li:nth-child(3):before{
 ol {
     list-style: none;
     counter-reset: muffins;
-    margin-right: 2rem;
 }
 
-.List--valores{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 
 ul li {
     font-family: cursive;

@@ -1,4 +1,3 @@
-
 .container{
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -18,12 +17,18 @@
     justify-content: space-between;
     align-items: center;
     max-width: 80%;
+    margin-bottom: 30px;
     
 }
 
-.text-team{
+.img-container>p{
     max-width: 60%;
+}
+
+.text-team{
+    max-width: 85%;
     background: var(--blancoGon);
     padding: 20px;
     border-radius: 10px;
+    text-align: justify;
 }

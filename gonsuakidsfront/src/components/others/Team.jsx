@@ -19,25 +19,24 @@ export default function Team(){
                     </p>
                     <img src={require('../../assets/EventoGon.jpeg')} alt="Imagen de un evento de nuestra fundación" className='event--img'/>
                 </div>
-                <p>
+                <p className="text-team">
                     Los especialistas se dirigirán a las sombras para explicarles la forma, técnicas,
                     materiales a utilizar y en que se deberá apoyar a los menores para estimularlos en
-                    las actividades.
-                </p>
-                <p>
-                    La fundación canalizara a los menores que lo requieran a:
+                    las actividades.<br/>De esta forma es que canalizaremos a los menores que así lo requieran a:
+                    <br/>
+                    <br/>
                     <ul>
                         <li>JUDICATURA SANITARIA DE AZCAPOTZALCO</li>
                         <li>SISAME (CLINICA DE TRANSTORNO DEL ESPECTRO AUTISTA)</li>
                         <li>CENTRO INTEGRAL DE SALUD MENTAL</li>
                         <li>CRIT ARAGON</li>
                     </ul>
+                    <br/>
                     En donde un equipo médico especializado será el responsable de vigilar la salud y
                     bienestar de todos los niños y niñas, para ello se solicitarán con consultorios
                     médicos especializados, con laboratorios clínicos, consultorios dentales y con
                     terapeutas que favorecerán el desarrollo integral.
-                </p>
-                <p>
+                    <br/>
                     Se favorecerá la estimulación de las artes manuales en los niños y para ellos se
                     gestionará su ingreso a programas federales como natación, danza, pintura,
                     modelado, etc.

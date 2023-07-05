@@ -8,7 +8,7 @@ export default function Navbar(){
     <div className="nav">
         <div className="logo">
             <div className="nav--title">
-                <Link to="/">
+                <Link to="/GonsuaPage/">
                     <h4 className="logo-t">
                         <span style={{color: "var(--azul)"}}>GON</span>
                         <span className="half-half">SUA</span>
@@ -22,9 +22,9 @@ export default function Navbar(){
             </div>
         </div>
         <div className="other">
-            <h4 className='nav--info'><Link to="/GonsuaKids" className="AU">¿Quiénes somos?</Link></h4>
-            <h4 className='nav--login'><Link to="/Team" className="Met">Cambiando vidas</Link></h4>
-            <h4 className='nav--register'> <Link to="/Contacto" className="Cont">Contáctanos</Link></h4>
+            <h4 className='nav--info'><Link to="/GonsuaPage/GonsuaKids" className="AU">¿Quiénes somos?</Link></h4>
+            <h4 className='nav--login'><Link to="/GonsuaPage/Team" className="Met">Cambiando vidas</Link></h4>
+            <h4 className='nav--register'> <Link to="/GonsuaPage/Contacto" className="Cont">Contáctanos</Link></h4>
         </div>
     </div>
     )

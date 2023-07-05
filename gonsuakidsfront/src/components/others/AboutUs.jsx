@@ -24,7 +24,7 @@ export default function AboutUs(){
                         </li>
                     </ol>
                 </div>
-                <hr/>
+                
                 <div className="secc">
                     <h2>
                         Misión
@@ -35,7 +35,7 @@ export default function AboutUs(){
                         de una mejor manera y con la mayor calidad de vida posible.
                     </p>
                 </div>
-                <hr/>
+                
                 <div className="secc">
                     <h2>
                         Visión
@@ -48,10 +48,10 @@ export default function AboutUs(){
                         “LA INCLUSION A LA VIDA COTIDIANA Y FAMILIAR”.
                     </p>
                 </div>
-                <hr/>
-                <div className="secc">
+                
+                <div className="secc--val">
                     <h2>
-                        Valores
+                        Valores que nos rigen
                     </h2>
                     <div className="List--valores">
                         <ul>

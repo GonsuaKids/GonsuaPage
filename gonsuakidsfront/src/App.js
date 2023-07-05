@@ -11,9 +11,9 @@ export default function App() {
     <Routes>
         <Route path = "/GonsuaPage/" element = {<Landing />} />
         <Route path = "/" element = {<Landing />} />
-        <Route path = "/Contacto" element = {<Contacto />} />
-        <Route path = "/GonsuaKids" element = {<AboutUs />} />
-        <Route path = "/Team" element = {<Team />} />
+        <Route path = "/GonsuaPage/Contacto" element = {<Contacto />} />
+        <Route path = "/GonsuaPage/GonsuaKids" element = {<AboutUs />} />
+        <Route path = "/GonsuaPage/Team" element = {<Team />} />
       </Routes>
   );
 }

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/GonsuaPage/static/css/main.a26fcdc3.css",
-    "main.js": "/GonsuaPage/static/js/main.149223d5.js",
+    "main.css": "/GonsuaPage/static/css/main.6eed4766.css",
+    "main.js": "/GonsuaPage/static/js/main.e0f79f2e.js",
     "static/js/787.cb3bc1a2.chunk.js": "/GonsuaPage/static/js/787.cb3bc1a2.chunk.js",
     "static/media/GonsuaKids.png": "/GonsuaPage/static/media/GonsuaKids.204bb9af2e6426dd7256.png",
     "static/media/EventoGon.jpeg": "/GonsuaPage/static/media/EventoGon.52a00aa856c6c22b3c4a.jpeg",
     "index.html": "/GonsuaPage/index.html",
-    "main.a26fcdc3.css.map": "/GonsuaPage/static/css/main.a26fcdc3.css.map",
-    "main.149223d5.js.map": "/GonsuaPage/static/js/main.149223d5.js.map",
+    "main.6eed4766.css.map": "/GonsuaPage/static/css/main.6eed4766.css.map",
+    "main.e0f79f2e.js.map": "/GonsuaPage/static/js/main.e0f79f2e.js.map",
     "787.cb3bc1a2.chunk.js.map": "/GonsuaPage/static/js/787.cb3bc1a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a26fcdc3.css",
-    "static/js/main.149223d5.js"
+    "static/css/main.6eed4766.css",
+    "static/js/main.e0f79f2e.js"
   ]
 }

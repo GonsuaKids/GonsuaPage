@@ -16,9 +16,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80%;
+    max-width: 85%;
     margin-bottom: 30px;
-    
 }
 
 .img-container>p{
@@ -28,7 +27,40 @@
 .text-team{
     max-width: 85%;
     background: var(--blancoGon);
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     text-align: justify;
+}
+
+.vid-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    .event--img{
+        max-width: 140px;
+    }
+
+    .img-container>p{
+        max-width: 55%;
+    }
+    
+    .text-team{
+        font-size: x-small;
+        padding: 7px;
+    }
+    
+    .le-team{
+        font-size: x-small;        
+    }
+
+    .le-team::before{
+        font-size: small;        
+    }
+
+
+
+
 }

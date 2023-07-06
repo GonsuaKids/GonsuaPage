@@ -1,6 +1,7 @@
 import Footer from "../pure/Footer";
 import Navbar from "../pure/Navbar";
 import './CSS/Team.css'
+import ReactPlayer from 'react-player'
 
 
 export default function Team(){
@@ -26,10 +27,10 @@ export default function Team(){
                     <br/>
                     <br/>
                     <ul>
-                        <li>JUDICATURA SANITARIA DE AZCAPOTZALCO</li>
-                        <li>SISAME (CLINICA DE TRANSTORNO DEL ESPECTRO AUTISTA)</li>
-                        <li>CENTRO INTEGRAL DE SALUD MENTAL</li>
-                        <li>CRIT ARAGON</li>
+                        <li className="le-team">JUDICATURA SANITARIA DE AZCAPOTZALCO</li>
+                        <li className="le-team">SISAME (CLINICA DE TRANSTORNO DEL ESPECTRO AUTISTA)</li>
+                        <li className="le-team">CENTRO INTEGRAL DE SALUD MENTAL</li>
+                        <li className="le-team">CRIT ARAGON</li>
                     </ul>
                     <br/>
                     En donde un equipo médico especializado será el responsable de vigilar la salud y
@@ -41,6 +42,34 @@ export default function Team(){
                     gestionará su ingreso a programas federales como natación, danza, pintura,
                     modelado, etc.
                 </p>
+                <div className="vid-container">
+                    <div className='react-player'>
+                        <ReactPlayer
+                            url='https://youtube.com/shorts/7sMBGiLOjyI'
+                            // playing: false
+                            width='70%'
+                            height='100%'
+                        />
+                    </div>
+                    
+                    <div className='react-player'>
+                        <ReactPlayer
+                            url='https://youtube.com/shorts/UDbadOz0ukg'
+                            // playing: false
+                            width='70%'
+                            height='100%'
+                        />
+                    </div>
+
+                    <div className='react-player'>
+                        <ReactPlayer
+                            url='https://youtube.com/shorts/AijDELH5OVA'
+                            // playing: false
+                            width='70%'
+                            height='100%'
+                        />
+                    </div>
+                </div>
             </div>
             <Footer/>
         </>

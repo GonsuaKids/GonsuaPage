@@ -2,5 +2,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 400px;
+}
+
+.contact--info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    align-items: center;
+    background: var(--blancoGon);
+    max-width: 600px;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    gap:10px
+
+}
+
+.contact--container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row  ;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }

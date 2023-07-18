@@ -18,7 +18,7 @@ export default function Team(){
                         diariamente con una gradualidad, esto con la finalidad de obtener un avance en los
                         niños y por ende, integrarlos a la vida cotidiana.
                     </p>
-                    <img src={require('../../assets/EventoGon.jpeg')} alt="Imagen de un evento de nuestra fundación" className='event--img'/>
+                    <img src={require('../../assets/EventoGon2.jpeg')} alt="Imagen de un evento de nuestra fundación" className='event--img'/>
                 </div>
                 <p className="text-team">
                     Los especialistas se dirigirán a las sombras para explicarles la forma, técnicas,

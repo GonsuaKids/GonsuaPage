@@ -37,9 +37,9 @@ export default function Landing(){
             </section>
             <div className='react-player'>
                 <ReactPlayer
-                    url='https://youtu.be/cjxaxsISb1Q'                    
+                    url='https://youtu.be/v3EZN_n-dZU'                    
                     // playing: false
-                    width='70%'
+                    width='55%'
                     height='100%'
                 />
             </div>
